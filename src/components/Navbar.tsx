@@ -14,14 +14,14 @@ import {
 } from "@/components/ui/sheet";
 import { Menu } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { navItems } from "@/lib/consts";
+import { navItems } from "@/lib/consts/navConst";
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const pathname = usePathname();
 
   return (
-    <nav className="fixed top-0 z-50 w-full border-b backdrop-blur px-4 supports-[backdrop-filter]:bg-white/90 dark:supports-[backdrop-filter]:bg-gray-900/90">
+    <nav className="fixed top-0 z-50 w-full backdrop-blur px-4 supports-[backdrop-filter]:bg-white/90 dark:supports-[backdrop-filter]:bg-gray-900/90">
       <div className="flex items-center justify-between h-16">
         <Link
           href="/"
@@ -54,7 +54,7 @@ export const Navbar = () => {
 
         <div className="hidden md:block border-1 rounded-md">
           <Button asChild>
-            <Link href={"/wallet"}>Connect Wallet</Link>
+            <Link href={"/wallet"}>Connect</Link>
           </Button>
         </div>
 

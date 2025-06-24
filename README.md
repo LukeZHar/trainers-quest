@@ -34,3 +34,15 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+------------------
+
+## List of thing to do (update as I go):
+
+- Navbar - will need to update for login stuff 
+- login/sign up popup forms or use wallet and once wallet is signed in have a form fill out for username and email for account
+- Landing
+- Search page
+- Collection page
+- Profile - Needs a avatar, and overview data, will need to be shareable page
+- Backend will need - user and userCards models
