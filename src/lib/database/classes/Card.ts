@@ -3,7 +3,7 @@ import {
   type DocumentType,
   modelOptions,
   Severity,
-  Ref,
+  type Ref,
 } from "@typegoose/typegoose";
 import { TimeStamps } from "@typegoose/typegoose/lib/defaultClasses";
 import { Set } from "./Set";
