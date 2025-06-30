@@ -25,7 +25,7 @@ export const Navbar = () => {
       <div className="flex items-center justify-between h-16">
         <Link
           href="/"
-          className="flex flex-row items-center text-2xl font-bold"
+          className="flex flex-row items-center text-3xl font-bold font-sans"
         >
           <Image
             src="/images/pokeball.png"

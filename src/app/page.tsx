@@ -4,13 +4,10 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main
-      className="flex min-h-screen flex-col items-center justify-between pt-24
-    "
-    >
+    <main className="flex min-h-screen flex-col items-center justify-between pt-24">
       <Navbar />
       <section className="text-center mt-10 p-10 bg-gradient-to-b from-white via-gray-200 to-gray-400 w-full">
-        <h1 className="text-6xl font-bold text-blue-500">
+        <h1 className="text-8xl font-bold text-blue-500 font-sans">
           Trainer&apos;s Quest
         </h1>
         <p className="mt-8 text-2xl">Gotta Track &apos;Em All!</p>
@@ -22,13 +19,16 @@ export default function Home() {
           <Button asChild className="text-xl m-4 p-8">
             <Link href="/login">Start Your Collection</Link>
           </Button>
-          <Button asChild className="text-xl m-4 bg- text-black hover:bg-white border-2 p-8">
+          <Button
+            asChild
+            className="text-xl m-4 bg- text-black hover:bg-white border-2 p-8"
+          >
             <Link href="/collection">Explore Cards</Link>
           </Button>
         </div>
       </section>
-      <section className="shadow-md w-full">
-        <h2 className="text-2xl font-semibold">Features</h2>
+      <section className="w-full border-1 text-center text-blue-500">
+        <h1 className="text-5xl font-semibold font-sans">Features</h1>
       </section>
       <section className="mt-8">
         <h2 className="text-2xl font-semibold">Getting Started</h2>
@@ -47,8 +47,8 @@ export default function Home() {
       <section className="mt-8">
         <h2 className="text-2xl font-semibold">Contact</h2>
         <p className="mt-2">
-          For any questions or feedback, you can reach out via the project's
-          GitHub repository.
+          For any questions or feedback, you can reach out via the
+          project&apos;s GitHub repository.
         </p>
       </section>
       <footer className="mt-8">
