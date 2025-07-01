@@ -27,8 +27,54 @@ export default function Home() {
           </Button>
         </div>
       </section>
-      <section className="w-full border-1 text-center text-blue-500">
-        <h1 className="text-5xl font-semibold font-sans">Features</h1>
+      <section className="w-full text-center mt-3">
+        <h1 className="text-5xl font-semibold font-sans text-blue-500">
+          Features
+        </h1>
+        <section className="grid grid-cols-1 md:grid-cols-3 gap-8 m-8">
+          <div className="p-6 bg-white shadow-md rounded-lg border">
+            <h1 className="text-3xl font-sans text-blue-500">Card Tracking</h1>
+            <p className="mt-4 text-gray-700">
+              Search and add Pokemon cards to your collection. Track condition,
+              value, and quantity with organisation by set and rarity.
+            </p>
+          </div>
+          <div className="p-6 bg-white shadow-md rounded-lg border">
+            <h1 className="text-3xl font-sans text-blue-500">Collection Book View</h1>
+            <p className="mt-4 text-gray-700">
+              Search and add Pokemon cards to your collection. Track condition,
+              value, and quantity with organisation by set and rarity.
+            </p>
+          </div>
+          <div className="p-6 bg-white shadow-md rounded-lg border">
+            <h1 className="text-3xl font-sans text-blue-500">Card Tracking</h1>
+            <p className="mt-4 text-gray-700">
+              Search and add Pokemon cards to your collection. Track condition,
+              value, and quantity with organisation by set and rarity.
+            </p>
+          </div>
+          <div className="p-6 bg-white shadow-md rounded-lg border">
+            <h1 className="text-3xl font-sans text-blue-500">Card Tracking</h1>
+            <p className="mt-4 text-gray-700">
+              Search and add Pokemon cards to your collection. Track condition,
+              value, and quantity with organisation by set and rarity.
+            </p>
+          </div>
+          <div className="p-6 bg-white shadow-md rounded-lg border">
+            <h1 className="text-3xl font-sans text-blue-500">Card Tracking</h1>
+            <p className="mt-4 text-gray-700">
+              Search and add Pokemon cards to your collection. Track condition,
+              value, and quantity with organisation by set and rarity.
+            </p>
+          </div>
+          <div className="p-6 bg-white shadow-md rounded-lg border">
+            <h1 className="text-3xl font-sans text-blue-500">Card Tracking</h1>
+            <p className="mt-4 text-gray-700">
+              Search and add Pokemon cards to your collection. Track condition,
+              value, and quantity with organisation by set and rarity.
+            </p>
+          </div>
+        </section>
       </section>
       <section className="mt-8">
         <h2 className="text-2xl font-semibold">Getting Started</h2>

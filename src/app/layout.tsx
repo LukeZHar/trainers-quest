@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "../styles/globals.css";
 import { VT323 } from "next/font/google";
 
@@ -7,16 +6,6 @@ const vt323 = VT323({
   variable: "--font-vt323",
   subsets: ["latin"],
   weight: "400",
-});
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
@@ -31,8 +20,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/images/pokeball.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </head>
       <body
-        className={`${vt323.variable} ${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${vt323.variable} antialiased`}
       >
         {children}
       </body>
