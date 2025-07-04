@@ -17,7 +17,7 @@ export default function Home() {
         </p>
         <div className="mt-6 flex justify-center space-x-4">
           <Button asChild className="text-xl m-4 p-8">
-            <Link href="/login">Start Your Collection</Link>
+            <Link href="/wallet">Start Your Collection</Link>
           </Button>
           <Button
             asChild
@@ -107,7 +107,7 @@ export default function Home() {
           to becoming a Pokémon card master!
         </p>
         <Button asChild className="text-xl p-8 mt-8">
-          <Link href="/login">Connect</Link>
+          <Link href="/wallet">Connect</Link>
         </Button>
       </section>
       <footer className="mt-8 bg-gray-200 w-full text-center p-2">
