@@ -31,7 +31,7 @@ export default function Home() {
         <h1 className="text-5xl font-semibold mt-4">
           Features
         </h1>
-        <section className="grid grid-cols-1 md:grid-cols-3 gap-8 m-8">
+        <section className="grid grid-cols-1 md:grid-cols-3 gap-8 m-8 md:m-20">
           <div className="p-6 bg-white shadow-md rounded-lg border">
             <h1 className="text-3xl">Card Tracking</h1>
             <p className="mt-4">
@@ -85,7 +85,7 @@ export default function Home() {
           </div>
         </section>
       </section>
-      <section className="my-8 bg-gray-300 w-full text-center">
+      <section className="m-8 bg-gray-300 w-full text-center md:m-20 p-8">
         <div className="text-gray-500 my-6">__________________________________________________________________________________________</div>
         <h1 className="text-5xl font-semibold my-4">
           Why Choose Trainer&apos;s Quest?
