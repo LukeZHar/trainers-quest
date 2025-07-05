@@ -120,13 +120,12 @@
     @apply bg-background text-foreground;
   }
   h1 {
-    @apply font-sans text-blue-500
+    @apply font-sans text-blue-500;
   }
   p {
-    @apply font-sour-gummy text-gray-700; 
+    @apply font-sour-gummy text-gray-700;
   }
   a {
-    @apply font-sour-gummy
+    @apply font-sour-gummy;
   }
 }
-
